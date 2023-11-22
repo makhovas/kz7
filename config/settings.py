@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'users',
     'habits',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'habits.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
