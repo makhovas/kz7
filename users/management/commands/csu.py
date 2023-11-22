@@ -19,7 +19,7 @@ class Command(BaseCommand):
             is_staff=True,
             is_superuser=True,
             is_active=True,
-            chat_id='1084646498'
+            chat_id='1084646498',
         )
         user.set_password('24586744')
         user.save()

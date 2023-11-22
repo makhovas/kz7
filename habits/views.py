@@ -1,9 +1,10 @@
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 
-from permissions import IsOwnerOrReadOnly
+
 from .models import Habits
 from .paginations import HabitsPagination
+from .permissions import IsOwnerOrReadOnly
 from .serializers import HabitsSerializer
 
 
