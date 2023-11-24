@@ -1,5 +1,3 @@
-from datetime import time
-
 import pytest
 from habits.validators import (
     validate_related_habit,
